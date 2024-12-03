@@ -5,7 +5,7 @@ pragma solidity ^0.8.28;
 contract Inbox {
     string public message = "aaaa1";
 
-    constructor (string memory initialMessage)  {
+    constructor(string memory initialMessage) {
         message = initialMessage;
     }
 
@@ -13,7 +13,10 @@ contract Inbox {
         message = newMessage;
     }
 
-    function getMessage() public view returns (string memory) {
-        return message;
+    function goMath(int256 a, int256 b) public pure {
+        a * b;
+        a - b;
+        a / b;
+        a == 0;
     }
 }

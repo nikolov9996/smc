@@ -17,16 +17,21 @@
 				"type": "constructor"
 			},
 			{
-				"inputs": [],
-				"name": "getMessage",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "goMath",
+				"outputs": [],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -84,11 +89,11 @@
 	},
 	"sources": {
 		"contracts/3_Ballot.sol": {
-			"keccak256": "0x9d96c6f55c63ca9520aff3ca438c950e92ff35bfc5691f68cef2d689dffd4d62",
+			"keccak256": "0x3e14b41d03f1e3ae5aa48f38afc1e47908d6f5ae5c23f84a114ed63002916f3c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b13e130ac4627813b6e4483dce41fbbc5f6f2427ab55f5a40d2d4fc37138ef3c",
-				"dweb:/ipfs/QmXFbT2rxZQPfv3zT53Kex8e3JaY4uBzMLZ2wg8CnbzUzN"
+				"bzz-raw://1f4dd112fca8d6684fe3f1a0541a0b221131be263ed3893075f00a900d927440",
+				"dweb:/ipfs/QmVT9h2T6es8pegXYfcNedVg9tRvYzGcb71dQg12e96B5u"
 			]
 		}
 	},
